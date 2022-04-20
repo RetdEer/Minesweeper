@@ -15,3 +15,4 @@ Extension ideas:
 3. Implement difficulty settings
 4. Actual tile graphics using sprites and textures
 
+Remove ImGUI from the project to run
