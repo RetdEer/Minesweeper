@@ -40,7 +40,7 @@ int main(){
         return -1;
 
     InitMinesweeper(rw.getSize(), f);
-    sf::Event e;
+    sf::Clock c; sf::Event e;
 
     while(rw.isOpen() && (!gameLost && !gameWon)){
         while(rw.pollEvent(e)){
